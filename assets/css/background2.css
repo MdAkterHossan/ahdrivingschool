@@ -1,0 +1,10 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(https://previews.123rf.com/images/bbtreesubmission/bbtreesubmission1702/bbtreesubmission170205260/71486930-abstract-child-education-illustration.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: 2%;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
