@@ -44,16 +44,16 @@ public function send(){
         $mail->isSMTP();// when live server delete this line
         $mail->Host     = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'iRepair.newcastle@gmail.com';
-        $mail->Password = 'silverfish2130';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = 'tls'; //when it goes to live server it will be 'ssl'
         $mail->Port     = 587;
         
-        $mail->setFrom('iRepair.newcastle@gmail.com', 'Test');
-        $mail->addReplyTo('iRepair.newcastle@gmail.com', 'Test');
+        $mail->setFrom('', 'Test');
+        $mail->addReplyTo('', 'Test');
         
         // Add a recipient
-        $mail->addAddress('iRepair.newcastle@gmail.com');
+        $mail->addAddress('');
         
         // Add cc or bcc 
         //$mail->addCC('cc@example.com');
